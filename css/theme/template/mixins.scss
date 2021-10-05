@@ -43,3 +43,14 @@
 		}
 	}
 }
+
+@mixin dark-bg-text-color-multiple( $color, $headingColor ) {
+	section.has-dark-background {
+		& {
+			color: $color;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			color: $headingColor;
+		}
+	}
+}
