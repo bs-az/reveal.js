@@ -5,10 +5,10 @@
  */
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
 section.has-dark-background {
-  color: #d9d4c8;
+  color: #9db0AC;
 }
 section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
-  color: #fbae17;
+  color: #f0ab00;
 }
 
 /*********************************************
@@ -22,7 +22,7 @@ section.has-dark-background h1, section.has-dark-background h2, section.has-dark
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Source Sans Pro, Helvetica, sans-serif;
-  --r-heading-color: #850052;
+  --r-heading-color: #830051;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
@@ -34,10 +34,10 @@ section.has-dark-background h1, section.has-dark-background h2, section.has-dark
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #00b3df;
-  --r-link-color-dark: #007693;
-  --r-link-color-hover: #2dd5ff;
-  --r-selection-background-color: #60e0ff;
+  --r-link-color: #68d2df;
+  --r-link-color-dark: #2cbdcf;
+  --r-link-color-hover: #a7e5ec;
+  --r-selection-background-color: #d1f1f5;
   --r-selection-color: #fff;
 }
 

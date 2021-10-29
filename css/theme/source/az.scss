@@ -14,21 +14,23 @@
 // Include theme-specific fonts
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
 
-$azYellow: #fbae17;
-$azLightBlue: #00b3df;
-$azGreen: #97b92f;
-$azPurple: #3b1e6e;
-$azDarkRed: #850052;
+$azGold: #f0ab00;
+$azLightBlue: #68d2df;
+$azLimeGreen: #c4d600;
+$azPurple: #3c1053;
+$azMulberry: #830051;
+$azMagenta: #d0006f;
 $azBrown: #3B1F2B;
 $azLightRed: #DB162F;
-$azDarkBlue: #383961;
-$azLightGrey: #d9d4c8;
+$azNavy: #003865;
+$azPlatinum: #9db0AC;
+$azGraphite: #3f4444;
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
 
 $mainColor: #222;
-$headingColor: $azDarkRed;
+$headingColor: $azMulberry;
 
 $mainFontSize: 42px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
@@ -47,7 +49,7 @@ $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
 // Change text colors against dark slide backgrounds
-@include dark-bg-text-color-multiple($azLightGrey, $azYellow);
+@include dark-bg-text-color-multiple($azPlatinum, $azGold);
 
 
 // Theme template ------------------------------
